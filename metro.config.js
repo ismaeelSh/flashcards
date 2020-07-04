@@ -1,5 +1,7 @@
+const blacklist = require('metro-config/blacklist');
+
 module.exports = {
-  transformer: {
-    assetPlugins: ['expo-asset/tools/hashAssetFiles'],
-  },
+  resolver: {
+    blacklistRE: blacklist([/docs\/.*/])
+  }
 };
