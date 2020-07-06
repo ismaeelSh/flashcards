@@ -1,5 +1,5 @@
 {
-  "main": "index.js",
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
